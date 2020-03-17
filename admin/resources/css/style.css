@@ -1,0 +1,87 @@
+
+
+/* This is style Admin Style File */
+
+
+
+
+/* Navbar Style */
+body {
+    padding-top:40px;
+    height: 1000px;
+}
+.col-sm-2 {
+    padding-left: 0;
+}
+.bg-dark {
+    background: #232527 limportant;
+}
+.navbar{
+    padding: 0;
+}
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link{
+    color: #ffffff;
+}
+
+
+.navbar-brand.dropdown-toggle::after{
+    content: none;
+}
+.dropdown-menu {
+    padding: 0;
+    background: #232527;
+}
+.dropdown-menu a:hover {
+    background: #232527;
+    color: #ffffff;
+}
+.dropdown-menu a{
+    color: #ffffff;
+}
+.brand-drop-down {
+    left: 100px;
+}
+
+/* Admin Sidebar Style */
+
+.sidebar{
+    padding: 10px;
+    background: #232527;
+    position: fixed;
+    height: 100%;
+    width: 190px;
+    max-width: 190px;
+}
+.sidebar ul {
+    margin-top: 30px;
+}
+.sidebar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    display: block;
+    margin-bottom: 15px;
+    border: 1px solid #383838;
+    border-radius: 3px;
+    transition: .3s ease-in-out;
+}
+.sidebar ul li i {
+    font-size: 15px;
+}
+.sidebar ul li a:hover {
+    color: #ffffff;
+    background: #484848;
+}
+
+
+/* Post Style */
+
+.error {
+    color: red;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 13px;
+    padding: 0;
+    display: none;
+}
